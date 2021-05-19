@@ -1,0 +1,5 @@
+High = int(input("Input high of Pyramid"))
+Pyramid = High
+for i in range(High):
+    Pyramid = Pyramid - 1
+    print(" "*Pyramid,"*"*((i*2)+1))
